@@ -1,0 +1,371 @@
+{
+ "val_tokens": 19767726,
+ "models": {
+  "best.pt": {
+   "step": 112000,
+   "val_loss_at_save": 1.2544458642601968,
+   "full_val_loss": 1.305501545305544,
+   "full_val_ppl": 3.6895391007506646,
+   "tokens_scored": 19767296
+  },
+  "best_run1.pt": {
+   "step": 57000,
+   "val_loss_at_save": 1.2850385069847108,
+   "full_val_loss": 1.3420002900093517,
+   "full_val_ppl": 3.8266903453345096,
+   "tokens_scored": 19767296
+  }
+ },
+ "samples": [
+  {
+   "seconds": 40.5,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 42.95,
+   "pitch_range": 55,
+   "pc_entropy_bits": 2.18,
+   "file": "lm2_t0.85_0.mid",
+   "temp": 0.85,
+   "tokens": 3072
+  },
+  {
+   "seconds": 207.5,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 7.86,
+   "pitch_range": 41,
+   "pc_entropy_bits": 2.79,
+   "file": "lm2_t0.85_1.mid",
+   "temp": 0.85,
+   "tokens": 3072
+  },
+  {
+   "seconds": 146.9,
+   "tracks": 3,
+   "drums": true,
+   "notes_per_s": 12.54,
+   "pitch_range": 43,
+   "pc_entropy_bits": 2.13,
+   "file": "lm2_t0.85_2.mid",
+   "temp": 0.85,
+   "tokens": 3072
+  },
+  {
+   "seconds": 772.2,
+   "tracks": 1,
+   "drums": false,
+   "notes_per_s": 0.57,
+   "pitch_range": 38,
+   "pc_entropy_bits": 2.86,
+   "file": "lm2_t0.85_3.mid",
+   "temp": 0.85,
+   "tokens": 3072
+  },
+  {
+   "seconds": 206.8,
+   "tracks": 1,
+   "drums": false,
+   "notes_per_s": 5.99,
+   "pitch_range": 75,
+   "pc_entropy_bits": 3.57,
+   "file": "lm2_t1.00_4.mid",
+   "temp": 1.0,
+   "tokens": 3072
+  },
+  {
+   "seconds": 21.3,
+   "tracks": 2,
+   "drums": true,
+   "notes_per_s": 2.77,
+   "pitch_range": 5,
+   "pc_entropy_bits": 1.58,
+   "file": "lm2_t1.00_5.mid",
+   "temp": 1.0,
+   "tokens": 128
+  },
+  {
+   "seconds": 1.0,
+   "tracks": 1,
+   "drums": true,
+   "notes_per_s": 1.99,
+   "pitch_range": 0,
+   "pc_entropy_bits": 0.0,
+   "file": "lm2_t1.00_6.mid",
+   "temp": 1.0,
+   "tokens": 10
+  },
+  {
+   "seconds": 74.5,
+   "tracks": 1,
+   "drums": true,
+   "notes_per_s": 3.69,
+   "pitch_range": 0,
+   "pc_entropy_bits": 0.0,
+   "file": "lm2_t1.00_7.mid",
+   "temp": 1.0,
+   "tokens": 567
+  }
+ ],
+ "reference": [
+  {
+   "seconds": 78.0,
+   "tracks": 10,
+   "drums": true,
+   "notes_per_s": 23.73,
+   "pitch_range": 60,
+   "pc_entropy_bits": 2.83
+  },
+  {
+   "seconds": 115.3,
+   "tracks": 10,
+   "drums": true,
+   "notes_per_s": 13.21,
+   "pitch_range": 57,
+   "pc_entropy_bits": 2.97
+  },
+  {
+   "seconds": 63.8,
+   "tracks": 3,
+   "drums": true,
+   "notes_per_s": 35.05,
+   "pitch_range": 32,
+   "pc_entropy_bits": 2.52
+  },
+  {
+   "seconds": 72.3,
+   "tracks": 2,
+   "drums": true,
+   "notes_per_s": 25.39,
+   "pitch_range": 57,
+   "pc_entropy_bits": 2.63
+  },
+  {
+   "seconds": 59.3,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 29.18,
+   "pitch_range": 72,
+   "pc_entropy_bits": 2.75
+  },
+  {
+   "seconds": 102.9,
+   "tracks": 8,
+   "drums": true,
+   "notes_per_s": 17.42,
+   "pitch_range": 62,
+   "pc_entropy_bits": 2.92
+  },
+  {
+   "seconds": 74.4,
+   "tracks": 8,
+   "drums": true,
+   "notes_per_s": 23.53,
+   "pitch_range": 48,
+   "pc_entropy_bits": 2.71
+  },
+  {
+   "seconds": 88.3,
+   "tracks": 6,
+   "drums": true,
+   "notes_per_s": 21.59,
+   "pitch_range": 53,
+   "pc_entropy_bits": 2.89
+  },
+  {
+   "seconds": 145.9,
+   "tracks": 10,
+   "drums": true,
+   "notes_per_s": 10.15,
+   "pitch_range": 60,
+   "pc_entropy_bits": 2.84
+  },
+  {
+   "seconds": 63.1,
+   "tracks": 6,
+   "drums": true,
+   "notes_per_s": 26.99,
+   "pitch_range": 63,
+   "pc_entropy_bits": 2.88
+  },
+  {
+   "seconds": 52.8,
+   "tracks": 4,
+   "drums": true,
+   "notes_per_s": 33.95,
+   "pitch_range": 36,
+   "pc_entropy_bits": 3.09
+  },
+  {
+   "seconds": 68.7,
+   "tracks": 7,
+   "drums": true,
+   "notes_per_s": 21.52,
+   "pitch_range": 85,
+   "pc_entropy_bits": 3.0
+  },
+  {
+   "seconds": 123.0,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 14.14,
+   "pitch_range": 60,
+   "pc_entropy_bits": 3.31
+  },
+  {
+   "seconds": 66.5,
+   "tracks": 14,
+   "drums": true,
+   "notes_per_s": 28.3,
+   "pitch_range": 67,
+   "pc_entropy_bits": 2.8
+  },
+  {
+   "seconds": 91.8,
+   "tracks": 8,
+   "drums": false,
+   "notes_per_s": 11.29,
+   "pitch_range": 60,
+   "pc_entropy_bits": 2.06
+  },
+  {
+   "seconds": 69.5,
+   "tracks": 10,
+   "drums": true,
+   "notes_per_s": 21.78,
+   "pitch_range": 55,
+   "pc_entropy_bits": 3.07
+  },
+  {
+   "seconds": 112.9,
+   "tracks": 7,
+   "drums": true,
+   "notes_per_s": 16.74,
+   "pitch_range": 63,
+   "pc_entropy_bits": 2.78
+  },
+  {
+   "seconds": 64.3,
+   "tracks": 8,
+   "drums": true,
+   "notes_per_s": 26.98,
+   "pitch_range": 52,
+   "pc_entropy_bits": 3.35
+  },
+  {
+   "seconds": 98.9,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 19.46,
+   "pitch_range": 55,
+   "pc_entropy_bits": 2.75
+  },
+  {
+   "seconds": 154.4,
+   "tracks": 8,
+   "drums": true,
+   "notes_per_s": 9.19,
+   "pitch_range": 62,
+   "pc_entropy_bits": 2.82
+  },
+  {
+   "seconds": 127.0,
+   "tracks": 9,
+   "drums": true,
+   "notes_per_s": 14.51,
+   "pitch_range": 47,
+   "pc_entropy_bits": 2.79
+  },
+  {
+   "seconds": 69.0,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 26.55,
+   "pitch_range": 48,
+   "pc_entropy_bits": 2.69
+  },
+  {
+   "seconds": 141.9,
+   "tracks": 9,
+   "drums": true,
+   "notes_per_s": 11.11,
+   "pitch_range": 56,
+   "pc_entropy_bits": 2.99
+  },
+  {
+   "seconds": 50.8,
+   "tracks": 3,
+   "drums": false,
+   "notes_per_s": 28.87,
+   "pitch_range": 43,
+   "pc_entropy_bits": 2.8
+  },
+  {
+   "seconds": 168.9,
+   "tracks": 6,
+   "drums": true,
+   "notes_per_s": 8.86,
+   "pitch_range": 63,
+   "pc_entropy_bits": 2.62
+  },
+  {
+   "seconds": 78.1,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 24.63,
+   "pitch_range": 46,
+   "pc_entropy_bits": 2.96
+  },
+  {
+   "seconds": 135.5,
+   "tracks": 6,
+   "drums": true,
+   "notes_per_s": 12.89,
+   "pitch_range": 57,
+   "pc_entropy_bits": 2.67
+  },
+  {
+   "seconds": 68.6,
+   "tracks": 9,
+   "drums": true,
+   "notes_per_s": 24.79,
+   "pitch_range": 50,
+   "pc_entropy_bits": 2.78
+  },
+  {
+   "seconds": 67.9,
+   "tracks": 5,
+   "drums": true,
+   "notes_per_s": 24.83,
+   "pitch_range": 53,
+   "pc_entropy_bits": 2.94
+  },
+  {
+   "seconds": 67.5,
+   "tracks": 8,
+   "drums": true,
+   "notes_per_s": 20.22,
+   "pitch_range": 60,
+   "pc_entropy_bits": 2.65
+  }
+ ],
+ "summary": {
+  "generated": {
+   "decoded": "8/8",
+   "seconds": "110.70 (IQR 35.70-206.98)",
+   "tracks": "1.50 (IQR 1.00-3.50)",
+   "notes_per_s": "4.84 (IQR 2.58-9.03)",
+   "pitch_range": "39.50 (IQR 3.75-46.00)",
+   "pc_entropy_bits": "2.16 (IQR 1.19-2.81)",
+   "with_drums": "6/8"
+  },
+  "real_lakh_val": {
+   "decoded": "30/30",
+   "seconds": "76.20 (IQR 67.60-114.70)",
+   "tracks": "7.00 (IQR 5.00-8.75)",
+   "notes_per_s": "21.69 (IQR 14.23-26.26)",
+   "pitch_range": "57.00 (IQR 50.50-61.50)",
+   "pc_entropy_bits": "2.81 (IQR 2.72-2.96)",
+   "with_drums": "28/30"
+  }
+ }
+}

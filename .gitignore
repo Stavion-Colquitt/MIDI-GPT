@@ -1,0 +1,24 @@
+# data and weights stay out of git (the model lives on Hugging Face)
+data/
+checkpoints/
+hf_export/
+*.pt
+*.safetensors
+# training/eval outputs and logs (curated copies live in results/ and examples/)
+samples/
+lm2_eval/
+generated/
+mlflow.db
+mlruns/
+*.log
+*.err
+*.old
+*.bak_*
+train_done*.txt
+lm2_enabled.txt
+pause.flag
+# one-off helper with local paths (built train.py from Tiny GPT's)
+make_train.py
+# python
+__pycache__/
+*.pyc

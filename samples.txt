@@ -1,0 +1,1589 @@
+
+===== step 500 | val loss 4.958 | ppl 142.3 =====
+step000500_0.mid: 1024 tokens
+---
+step000500_1.mid: 3 tokens
+---
+step000500_2.mid: 1024 tokens
+
+===== step 1000 | val loss 3.200 | ppl 24.5 =====
+step001000_0.mid: 0 tokens, could not decode ('list' object has no attribute 'tokens')
+---
+step001000_1.mid: 1024 tokens
+---
+step001000_2.mid: 1024 tokens
+
+===== step 1500 | val loss 2.465 | ppl 11.8 =====
+step001500_0.mid: 1024 tokens
+---
+step001500_1.mid: 1024 tokens
+---
+step001500_2.mid: 195 tokens
+
+===== step 2000 | val loss 2.179 | ppl 8.8 =====
+step002000_0.mid: 122 tokens
+---
+step002000_1.mid: 1024 tokens
+---
+step002000_2.mid: 1024 tokens
+
+===== step 2500 | val loss 2.122 | ppl 8.3 =====
+step002500_0.mid: 1024 tokens
+---
+step002500_1.mid: 1024 tokens
+---
+step002500_2.mid: 296 tokens
+
+===== step 3000 | val loss 1.980 | ppl 7.2 =====
+step003000_0.mid: 878 tokens
+---
+step003000_1.mid: 31 tokens
+---
+step003000_2.mid: 279 tokens
+
+===== step 3500 | val loss 1.912 | ppl 6.8 =====
+step003500_0.mid: 1024 tokens
+---
+step003500_1.mid: 1024 tokens
+---
+step003500_2.mid: 1024 tokens
+
+===== step 4000 | val loss 1.877 | ppl 6.5 =====
+step004000_0.mid: 1024 tokens
+---
+step004000_1.mid: 81 tokens
+---
+step004000_2.mid: 61 tokens
+
+===== step 4500 | val loss 1.875 | ppl 6.5 =====
+step004500_0.mid: 637 tokens
+---
+step004500_1.mid: 1024 tokens
+---
+step004500_2.mid: 1024 tokens
+
+===== step 5000 | val loss 1.785 | ppl 6.0 =====
+step005000_0.mid: 1024 tokens
+---
+step005000_1.mid: 1024 tokens
+---
+step005000_2.mid: 1024 tokens
+
+===== step 5500 | val loss 1.777 | ppl 5.9 =====
+step005500_0.mid: 1024 tokens
+---
+step005500_1.mid: 1024 tokens
+---
+step005500_2.mid: 1024 tokens
+
+===== step 6000 | val loss 1.713 | ppl 5.5 =====
+step006000_0.mid: 1024 tokens
+---
+step006000_1.mid: 1024 tokens
+---
+step006000_2.mid: 1024 tokens
+
+===== step 6500 | val loss 1.705 | ppl 5.5 =====
+step006500_0.mid: 1024 tokens
+---
+step006500_1.mid: 473 tokens
+---
+step006500_2.mid: 1024 tokens
+
+===== step 7000 | val loss 1.792 | ppl 6.0 =====
+step007000_0.mid: 1024 tokens
+---
+step007000_1.mid: 3 tokens
+---
+step007000_2.mid: 1024 tokens
+
+===== step 7500 | val loss 1.646 | ppl 5.2 =====
+step007500_0.mid: 1024 tokens
+---
+step007500_1.mid: 1024 tokens
+---
+step007500_2.mid: 1024 tokens
+
+===== step 8000 | val loss 1.731 | ppl 5.6 =====
+step008000_0.mid: 556 tokens
+---
+step008000_1.mid: 1024 tokens
+---
+step008000_2.mid: 102 tokens
+
+===== step 8500 | val loss 1.589 | ppl 4.9 =====
+step008500_0.mid: 1024 tokens
+---
+step008500_1.mid: 1024 tokens
+---
+step008500_2.mid: 924 tokens
+
+===== step 9000 | val loss 1.663 | ppl 5.3 =====
+step009000_0.mid: 1024 tokens
+---
+step009000_1.mid: 29 tokens
+---
+step009000_2.mid: 1024 tokens
+
+===== step 9500 | val loss 1.596 | ppl 4.9 =====
+step009500_0.mid: 1024 tokens
+---
+step009500_1.mid: 30 tokens
+---
+step009500_2.mid: 1024 tokens
+
+===== step 10000 | val loss 1.603 | ppl 5.0 =====
+step010000_0.mid: 445 tokens
+---
+step010000_1.mid: 1024 tokens
+---
+step010000_2.mid: 1024 tokens
+
+===== step 10500 | val loss 1.590 | ppl 4.9 =====
+step010500_0.mid: 1024 tokens
+---
+step010500_1.mid: 1024 tokens
+---
+step010500_2.mid: 1024 tokens
+
+===== step 11000 | val loss 1.573 | ppl 4.8 =====
+step011000_0.mid: 1002 tokens
+---
+step011000_1.mid: 1024 tokens
+---
+step011000_2.mid: 1024 tokens
+
+===== step 11500 | val loss 1.570 | ppl 4.8 =====
+step011500_0.mid: 1024 tokens
+---
+step011500_1.mid: 1024 tokens
+---
+step011500_2.mid: 830 tokens
+
+===== step 12000 | val loss 1.570 | ppl 4.8 =====
+step012000_0.mid: 166 tokens
+---
+step012000_1.mid: 1024 tokens
+---
+step012000_2.mid: 1024 tokens
+
+===== step 12500 | val loss 1.567 | ppl 4.8 =====
+step012500_0.mid: 1024 tokens
+---
+step012500_1.mid: 1024 tokens
+---
+step012500_2.mid: 239 tokens
+
+===== step 13000 | val loss 1.587 | ppl 4.9 =====
+step013000_0.mid: 1024 tokens
+---
+step013000_1.mid: 1024 tokens
+---
+step013000_2.mid: 1024 tokens
+
+===== step 13500 | val loss 1.576 | ppl 4.8 =====
+step013500_0.mid: 1024 tokens
+---
+step013500_1.mid: 1024 tokens
+---
+step013500_2.mid: 496 tokens
+
+===== step 14000 | val loss 1.615 | ppl 5.0 =====
+step014000_0.mid: 1024 tokens
+---
+step014000_1.mid: 1024 tokens
+---
+step014000_2.mid: 1024 tokens
+
+===== step 14500 | val loss 1.614 | ppl 5.0 =====
+step014500_0.mid: 1024 tokens
+---
+step014500_1.mid: 475 tokens
+---
+step014500_2.mid: 748 tokens
+
+===== step 15000 | val loss 1.543 | ppl 4.7 =====
+step015000_0.mid: 1024 tokens
+---
+step015000_1.mid: 1024 tokens
+---
+step015000_2.mid: 658 tokens
+
+===== step 15500 | val loss 1.543 | ppl 4.7 =====
+step015500_0.mid: 1024 tokens
+---
+step015500_1.mid: 1024 tokens
+---
+step015500_2.mid: 1024 tokens
+
+===== step 16000 | val loss 1.550 | ppl 4.7 =====
+step016000_0.mid: 910 tokens
+---
+step016000_1.mid: 1024 tokens
+---
+step016000_2.mid: 1024 tokens
+
+===== step 16500 | val loss 1.529 | ppl 4.6 =====
+step016500_0.mid: 1024 tokens
+---
+step016500_1.mid: 1024 tokens
+---
+step016500_2.mid: 1024 tokens
+
+===== step 17000 | val loss 1.534 | ppl 4.6 =====
+step017000_0.mid: 1024 tokens
+---
+step017000_1.mid: 177 tokens
+---
+step017000_2.mid: 1024 tokens
+
+===== step 17500 | val loss 1.501 | ppl 4.5 =====
+step017500_0.mid: 1024 tokens
+---
+step017500_1.mid: 1024 tokens
+---
+step017500_2.mid: 8 tokens
+
+===== step 18000 | val loss 1.460 | ppl 4.3 =====
+step018000_0.mid: 1024 tokens
+---
+step018000_1.mid: 1024 tokens
+---
+step018000_2.mid: 1024 tokens
+
+===== step 18500 | val loss 1.545 | ppl 4.7 =====
+step018500_0.mid: 1024 tokens
+---
+step018500_1.mid: 538 tokens
+---
+step018500_2.mid: 178 tokens
+
+===== step 19000 | val loss 1.523 | ppl 4.6 =====
+step019000_0.mid: 1024 tokens
+---
+step019000_1.mid: 1024 tokens
+---
+step019000_2.mid: 227 tokens
+
+===== step 19500 | val loss 1.471 | ppl 4.4 =====
+step019500_0.mid: 789 tokens
+---
+step019500_1.mid: 266 tokens
+---
+step019500_2.mid: 1024 tokens
+
+===== step 20000 | val loss 1.526 | ppl 4.6 =====
+step020000_0.mid: 1024 tokens
+---
+step020000_1.mid: 1024 tokens
+---
+step020000_2.mid: 1024 tokens
+
+===== step 20500 | val loss 1.481 | ppl 4.4 =====
+step020500_0.mid: 33 tokens
+---
+step020500_1.mid: 1024 tokens
+---
+step020500_2.mid: 226 tokens
+
+===== step 21000 | val loss 1.495 | ppl 4.5 =====
+step021000_0.mid: 1024 tokens
+---
+step021000_1.mid: 1024 tokens
+---
+step021000_2.mid: 1024 tokens
+
+===== step 21500 | val loss 1.456 | ppl 4.3 =====
+step021500_0.mid: 1024 tokens
+---
+step021500_1.mid: 24 tokens
+---
+step021500_2.mid: 357 tokens
+
+===== step 22000 | val loss 1.516 | ppl 4.6 =====
+step022000_0.mid: 1024 tokens
+---
+step022000_1.mid: 839 tokens
+---
+step022000_2.mid: 158 tokens
+
+===== step 22500 | val loss 1.497 | ppl 4.5 =====
+step022500_0.mid: 1024 tokens
+---
+step022500_1.mid: 1024 tokens
+---
+step022500_2.mid: 1024 tokens
+
+===== step 23000 | val loss 1.483 | ppl 4.4 =====
+step023000_0.mid: 1024 tokens
+---
+step023000_1.mid: 1024 tokens
+---
+step023000_2.mid: 1024 tokens
+
+===== step 23500 | val loss 1.486 | ppl 4.4 =====
+step023500_0.mid: 1024 tokens
+---
+step023500_1.mid: 1024 tokens
+---
+step023500_2.mid: 1024 tokens
+
+===== step 24000 | val loss 1.487 | ppl 4.4 =====
+step024000_0.mid: 1024 tokens
+---
+step024000_1.mid: 1024 tokens
+---
+step024000_2.mid: 1024 tokens
+
+===== step 24500 | val loss 1.486 | ppl 4.4 =====
+step024500_0.mid: 1024 tokens
+---
+step024500_1.mid: 1024 tokens
+---
+step024500_2.mid: 1024 tokens
+
+===== step 25000 | val loss 1.511 | ppl 4.5 =====
+step025000_0.mid: 1024 tokens
+---
+step025000_1.mid: 1024 tokens
+---
+step025000_2.mid: 729 tokens
+
+===== step 25500 | val loss 1.463 | ppl 4.3 =====
+step025500_0.mid: 1024 tokens
+---
+step025500_1.mid: 1024 tokens
+---
+step025500_2.mid: 1024 tokens
+
+===== step 26000 | val loss 1.455 | ppl 4.3 =====
+step026000_0.mid: 1024 tokens
+---
+step026000_1.mid: 1024 tokens
+---
+step026000_2.mid: 1024 tokens
+
+===== step 26500 | val loss 1.495 | ppl 4.5 =====
+step026500_0.mid: 1024 tokens
+---
+step026500_1.mid: 1024 tokens
+---
+step026500_2.mid: 1024 tokens
+
+===== step 27000 | val loss 1.442 | ppl 4.2 =====
+step027000_0.mid: 1024 tokens
+---
+step027000_1.mid: 556 tokens
+---
+step027000_2.mid: 406 tokens
+
+===== step 27500 | val loss 1.421 | ppl 4.1 =====
+step027500_0.mid: 1024 tokens
+---
+step027500_1.mid: 1024 tokens
+---
+step027500_2.mid: 323 tokens
+
+===== step 28000 | val loss 1.455 | ppl 4.3 =====
+step028000_0.mid: 1024 tokens
+---
+step028000_1.mid: 1024 tokens
+---
+step028000_2.mid: 1024 tokens
+
+===== step 28500 | val loss 1.463 | ppl 4.3 =====
+step028500_0.mid: 1024 tokens
+---
+step028500_1.mid: 1024 tokens
+---
+step028500_2.mid: 1024 tokens
+
+===== step 29000 | val loss 1.454 | ppl 4.3 =====
+step029000_0.mid: 1024 tokens
+---
+step029000_1.mid: 862 tokens
+---
+step029000_2.mid: 1024 tokens
+
+===== step 29500 | val loss 1.515 | ppl 4.6 =====
+step029500_0.mid: 1024 tokens
+---
+step029500_1.mid: 1024 tokens
+---
+step029500_2.mid: 1024 tokens
+
+===== step 30000 | val loss 1.497 | ppl 4.5 =====
+step030000_0.mid: 1024 tokens
+---
+step030000_1.mid: 1024 tokens
+---
+step030000_2.mid: 1024 tokens
+
+===== step 30500 | val loss 1.443 | ppl 4.2 =====
+step030500_0.mid: 201 tokens
+---
+step030500_1.mid: 1024 tokens
+---
+step030500_2.mid: 581 tokens
+
+===== step 31000 | val loss 1.437 | ppl 4.2 =====
+step031000_0.mid: 1024 tokens
+---
+step031000_1.mid: 1024 tokens
+---
+step031000_2.mid: 412 tokens
+
+===== step 31500 | val loss 1.464 | ppl 4.3 =====
+step031500_0.mid: 1024 tokens
+---
+step031500_1.mid: 28 tokens
+---
+step031500_2.mid: 1024 tokens
+
+===== step 32000 | val loss 1.457 | ppl 4.3 =====
+step032000_0.mid: 1024 tokens
+---
+step032000_1.mid: 41 tokens
+---
+step032000_2.mid: 1024 tokens
+
+===== step 32500 | val loss 1.441 | ppl 4.2 =====
+step032500_0.mid: 1024 tokens
+---
+step032500_1.mid: 1003 tokens
+---
+step032500_2.mid: 1024 tokens
+
+===== step 33000 | val loss 1.401 | ppl 4.1 =====
+step033000_0.mid: 1024 tokens
+---
+step033000_1.mid: 227 tokens
+---
+step033000_2.mid: 1024 tokens
+
+===== step 33500 | val loss 1.406 | ppl 4.1 =====
+step033500_0.mid: 1024 tokens
+---
+step033500_1.mid: 132 tokens
+---
+step033500_2.mid: 1024 tokens
+
+===== step 34000 | val loss 1.370 | ppl 3.9 =====
+step034000_0.mid: 1024 tokens
+---
+step034000_1.mid: 1024 tokens
+---
+step034000_2.mid: 1024 tokens
+
+===== step 34500 | val loss 1.452 | ppl 4.3 =====
+step034500_0.mid: 1024 tokens
+---
+step034500_1.mid: 1024 tokens
+---
+step034500_2.mid: 1024 tokens
+
+===== step 35000 | val loss 1.441 | ppl 4.2 =====
+step035000_0.mid: 509 tokens
+---
+step035000_1.mid: 1024 tokens
+---
+step035000_2.mid: 1024 tokens
+
+===== step 35500 | val loss 1.417 | ppl 4.1 =====
+step035500_0.mid: 1024 tokens
+---
+step035500_1.mid: 1024 tokens
+---
+step035500_2.mid: 1024 tokens
+
+===== step 36000 | val loss 1.399 | ppl 4.1 =====
+step036000_0.mid: 620 tokens
+---
+step036000_1.mid: 129 tokens
+---
+step036000_2.mid: 821 tokens
+
+===== step 36500 | val loss 1.400 | ppl 4.1 =====
+step036500_0.mid: 1024 tokens
+---
+step036500_1.mid: 1024 tokens
+---
+step036500_2.mid: 1024 tokens
+
+===== step 37000 | val loss 1.424 | ppl 4.2 =====
+step037000_0.mid: 69 tokens
+---
+step037000_1.mid: 9 tokens
+---
+step037000_2.mid: 1024 tokens
+
+===== step 37500 | val loss 1.451 | ppl 4.3 =====
+step037500_0.mid: 1024 tokens
+---
+step037500_1.mid: 114 tokens
+---
+step037500_2.mid: 1024 tokens
+
+===== step 38000 | val loss 1.442 | ppl 4.2 =====
+step038000_0.mid: 1024 tokens
+---
+step038000_1.mid: 1024 tokens
+---
+step038000_2.mid: 1024 tokens
+
+===== step 38500 | val loss 1.409 | ppl 4.1 =====
+step038500_0.mid: 1024 tokens
+---
+step038500_1.mid: 183 tokens
+---
+step038500_2.mid: 1024 tokens
+
+===== step 39000 | val loss 1.394 | ppl 4.0 =====
+step039000_0.mid: 1024 tokens
+---
+step039000_1.mid: 813 tokens
+---
+step039000_2.mid: 934 tokens
+
+===== step 39500 | val loss 1.420 | ppl 4.1 =====
+step039500_0.mid: 1024 tokens
+---
+step039500_1.mid: 142 tokens
+---
+step039500_2.mid: 397 tokens
+
+===== step 40000 | val loss 1.462 | ppl 4.3 =====
+step040000_0.mid: 1024 tokens
+---
+step040000_1.mid: 63 tokens
+---
+step040000_2.mid: 1024 tokens
+
+===== step 40500 | val loss 1.417 | ppl 4.1 =====
+step040500_0.mid: 1024 tokens
+---
+step040500_1.mid: 1024 tokens
+---
+step040500_2.mid: 1024 tokens
+
+===== step 41000 | val loss 1.380 | ppl 4.0 =====
+step041000_0.mid: 1024 tokens
+---
+step041000_1.mid: 1024 tokens
+---
+step041000_2.mid: 751 tokens
+
+===== step 41500 | val loss 1.417 | ppl 4.1 =====
+step041500_0.mid: 1024 tokens
+---
+step041500_1.mid: 839 tokens
+---
+step041500_2.mid: 924 tokens
+
+===== step 42000 | val loss 1.437 | ppl 4.2 =====
+step042000_0.mid: 1024 tokens
+---
+step042000_1.mid: 1024 tokens
+---
+step042000_2.mid: 878 tokens
+
+===== step 42500 | val loss 1.391 | ppl 4.0 =====
+step042500_0.mid: 1024 tokens
+---
+step042500_1.mid: 1024 tokens
+---
+step042500_2.mid: 1024 tokens
+
+===== step 43000 | val loss 1.370 | ppl 3.9 =====
+step043000_0.mid: 1024 tokens
+---
+step043000_1.mid: 1024 tokens
+---
+step043000_2.mid: 245 tokens
+
+===== step 43500 | val loss 1.391 | ppl 4.0 =====
+step043500_0.mid: 398 tokens
+---
+step043500_1.mid: 1002 tokens
+---
+step043500_2.mid: 1024 tokens
+
+===== step 44000 | val loss 1.339 | ppl 3.8 =====
+step044000_0.mid: 527 tokens
+---
+step044000_1.mid: 1024 tokens
+---
+step044000_2.mid: 1015 tokens
+
+===== step 44500 | val loss 1.375 | ppl 4.0 =====
+step044500_0.mid: 74 tokens
+---
+step044500_1.mid: 1024 tokens
+---
+step044500_2.mid: 350 tokens
+
+===== step 45000 | val loss 1.372 | ppl 3.9 =====
+step045000_0.mid: 197 tokens
+---
+step045000_1.mid: 1024 tokens
+---
+step045000_2.mid: 1024 tokens
+
+===== step 45500 | val loss 1.378 | ppl 4.0 =====
+step045500_0.mid: 1024 tokens
+---
+step045500_1.mid: 1024 tokens
+---
+step045500_2.mid: 386 tokens
+
+===== step 46000 | val loss 1.435 | ppl 4.2 =====
+step046000_0.mid: 408 tokens
+---
+step046000_1.mid: 1024 tokens
+---
+step046000_2.mid: 1024 tokens
+
+===== step 46500 | val loss 1.329 | ppl 3.8 =====
+step046500_0.mid: 607 tokens
+---
+step046500_1.mid: 46 tokens
+---
+step046500_2.mid: 890 tokens
+
+===== step 47000 | val loss 1.311 | ppl 3.7 =====
+step047000_0.mid: 570 tokens
+---
+step047000_1.mid: 24 tokens
+---
+step047000_2.mid: 1024 tokens
+
+===== step 47500 | val loss 1.294 | ppl 3.6 =====
+step047500_0.mid: 1024 tokens
+---
+step047500_1.mid: 984 tokens
+---
+step047500_2.mid: 702 tokens
+
+===== step 48000 | val loss 1.399 | ppl 4.1 =====
+step048000_0.mid: 1024 tokens
+---
+step048000_1.mid: 25 tokens
+---
+step048000_2.mid: 1024 tokens
+
+===== step 48500 | val loss 1.368 | ppl 3.9 =====
+step048500_0.mid: 1024 tokens
+---
+step048500_1.mid: 1024 tokens
+---
+step048500_2.mid: 56 tokens
+
+===== step 49000 | val loss 1.314 | ppl 3.7 =====
+step049000_0.mid: 344 tokens
+---
+step049000_1.mid: 136 tokens
+---
+step049000_2.mid: 1024 tokens
+
+===== step 49500 | val loss 1.387 | ppl 4.0 =====
+step049500_0.mid: 1024 tokens
+---
+step049500_1.mid: 1024 tokens
+---
+step049500_2.mid: 370 tokens
+
+===== step 50000 | val loss 1.363 | ppl 3.9 =====
+step050000_0.mid: 1024 tokens
+---
+step050000_1.mid: 1024 tokens
+---
+step050000_2.mid: 1024 tokens
+
+===== step 50500 | val loss 1.350 | ppl 3.9 =====
+step050500_0.mid: 1024 tokens
+---
+step050500_1.mid: 68 tokens
+---
+step050500_2.mid: 630 tokens
+
+===== step 51000 | val loss 1.325 | ppl 3.8 =====
+step051000_0.mid: 1024 tokens
+---
+step051000_1.mid: 1024 tokens
+---
+step051000_2.mid: 1024 tokens
+
+===== step 51500 | val loss 1.374 | ppl 4.0 =====
+step051500_0.mid: 1024 tokens
+---
+step051500_1.mid: 1024 tokens
+---
+step051500_2.mid: 1024 tokens
+
+===== step 52000 | val loss 1.337 | ppl 3.8 =====
+step052000_0.mid: 1024 tokens
+---
+step052000_1.mid: 1024 tokens
+---
+step052000_2.mid: 1024 tokens
+
+===== step 52500 | val loss 1.339 | ppl 3.8 =====
+step052500_0.mid: 1024 tokens
+---
+step052500_1.mid: 1024 tokens
+---
+step052500_2.mid: 1024 tokens
+
+===== step 53000 | val loss 1.336 | ppl 3.8 =====
+step053000_0.mid: 1024 tokens
+---
+step053000_1.mid: 1024 tokens
+---
+step053000_2.mid: 1024 tokens
+
+===== step 53500 | val loss 1.312 | ppl 3.7 =====
+step053500_0.mid: 1024 tokens
+---
+step053500_1.mid: 1024 tokens
+---
+step053500_2.mid: 1024 tokens
+
+===== step 54000 | val loss 1.390 | ppl 4.0 =====
+step054000_0.mid: 1024 tokens
+---
+step054000_1.mid: 76 tokens
+---
+step054000_2.mid: 1024 tokens
+
+===== step 54500 | val loss 1.346 | ppl 3.8 =====
+step054500_0.mid: 1024 tokens
+---
+step054500_1.mid: 1024 tokens
+---
+step054500_2.mid: 1024 tokens
+
+===== step 55000 | val loss 1.350 | ppl 3.9 =====
+step055000_0.mid: 36 tokens
+---
+step055000_1.mid: 1024 tokens
+---
+step055000_2.mid: 1024 tokens
+
+===== step 55500 | val loss 1.375 | ppl 4.0 =====
+step055500_0.mid: 1024 tokens
+---
+step055500_1.mid: 1024 tokens
+---
+step055500_2.mid: 1024 tokens
+
+===== step 56000 | val loss 1.342 | ppl 3.8 =====
+step056000_0.mid: 1024 tokens
+---
+step056000_1.mid: 1024 tokens
+---
+step056000_2.mid: 1024 tokens
+
+===== step 56500 | val loss 1.377 | ppl 4.0 =====
+step056500_0.mid: 1024 tokens
+---
+step056500_1.mid: 662 tokens
+---
+step056500_2.mid: 1024 tokens
+
+===== step 57000 | val loss 1.285 | ppl 3.6 =====
+step057000_0.mid: 1024 tokens
+---
+step057000_1.mid: 1024 tokens
+---
+step057000_2.mid: 1024 tokens
+
+===== step 57500 | val loss 1.303 | ppl 3.7 =====
+step057500_0.mid: 1024 tokens
+---
+step057500_1.mid: 1024 tokens
+---
+step057500_2.mid: 1024 tokens
+
+===== step 58000 | val loss 1.335 | ppl 3.8 =====
+step058000_0.mid: 1024 tokens
+---
+step058000_1.mid: 1024 tokens
+---
+step058000_2.mid: 822 tokens
+
+===== step 58500 | val loss 1.321 | ppl 3.7 =====
+step058500_0.mid: 1024 tokens
+---
+step058500_1.mid: 662 tokens
+---
+step058500_2.mid: 437 tokens
+
+===== step 59000 | val loss 1.363 | ppl 3.9 =====
+step059000_0.mid: 574 tokens
+---
+step059000_1.mid: 1024 tokens
+---
+step059000_2.mid: 1024 tokens
+
+===== step 59500 | val loss 1.342 | ppl 3.8 =====
+step059500_0.mid: 546 tokens
+---
+step059500_1.mid: 1024 tokens
+---
+step059500_2.mid: 46 tokens
+
+===== step 60000 | val loss 1.330 | ppl 3.8 =====
+step060000_0.mid: 1024 tokens
+---
+step060000_1.mid: 487 tokens
+---
+step060000_2.mid: 1024 tokens
+
+===== step 60500 | val loss 1.287 | ppl 3.6 =====
+step060500_0.mid: 1024 tokens
+---
+step060500_1.mid: 1024 tokens
+---
+step060500_2.mid: 581 tokens
+
+===== step 60763 | val loss 1.333 | ppl 3.8 =====
+step060763_0.mid: 1024 tokens
+---
+step060763_1.mid: 170 tokens
+---
+step060763_2.mid: 11 tokens
+
+===== step 61000 | val loss 1.354 | ppl 3.9 =====
+step061000_0.mid: 1024 tokens
+---
+step061000_1.mid: 1024 tokens
+---
+step061000_2.mid: 1024 tokens
+
+===== step 61500 | val loss 1.412 | ppl 4.1 =====
+step061500_0.mid: 1024 tokens
+---
+step061500_1.mid: 1024 tokens
+---
+step061500_2.mid: 1024 tokens
+
+===== step 62000 | val loss 1.407 | ppl 4.1 =====
+step062000_0.mid: 1024 tokens
+---
+step062000_1.mid: 1024 tokens
+---
+step062000_2.mid: 1024 tokens
+
+===== step 62500 | val loss 1.409 | ppl 4.1 =====
+step062500_0.mid: 1024 tokens
+---
+step062500_1.mid: 1024 tokens
+---
+step062500_2.mid: 1024 tokens
+
+===== step 63000 | val loss 1.433 | ppl 4.2 =====
+step063000_0.mid: 236 tokens
+---
+step063000_1.mid: 1024 tokens
+---
+step063000_2.mid: 1024 tokens
+
+===== step 63500 | val loss 1.388 | ppl 4.0 =====
+step063500_0.mid: 856 tokens
+---
+step063500_1.mid: 1024 tokens
+---
+step063500_2.mid: 1024 tokens
+
+===== step 64000 | val loss 1.451 | ppl 4.3 =====
+step064000_0.mid: 48 tokens
+---
+step064000_1.mid: 1024 tokens
+---
+step064000_2.mid: 583 tokens
+
+===== step 64500 | val loss 1.423 | ppl 4.2 =====
+step064500_0.mid: 1024 tokens
+---
+step064500_1.mid: 1024 tokens
+---
+step064500_2.mid: 1024 tokens
+
+===== step 65000 | val loss 1.409 | ppl 4.1 =====
+step065000_0.mid: 1024 tokens
+---
+step065000_1.mid: 99 tokens
+---
+step065000_2.mid: 1024 tokens
+
+===== step 65500 | val loss 1.395 | ppl 4.0 =====
+step065500_0.mid: 1024 tokens
+---
+step065500_1.mid: 1024 tokens
+---
+step065500_2.mid: 1024 tokens
+
+===== step 66000 | val loss 1.396 | ppl 4.0 =====
+step066000_0.mid: 1024 tokens
+---
+step066000_1.mid: 1024 tokens
+---
+step066000_2.mid: 1024 tokens
+
+===== step 66500 | val loss 1.389 | ppl 4.0 =====
+step066500_0.mid: 309 tokens
+---
+step066500_1.mid: 1024 tokens
+---
+step066500_2.mid: 1024 tokens
+
+===== step 67000 | val loss 1.379 | ppl 4.0 =====
+step067000_0.mid: 1024 tokens
+---
+step067000_1.mid: 1024 tokens
+---
+step067000_2.mid: 1024 tokens
+
+===== step 67500 | val loss 1.394 | ppl 4.0 =====
+step067500_0.mid: 1024 tokens
+---
+step067500_1.mid: 1024 tokens
+---
+step067500_2.mid: 1024 tokens
+
+===== step 68000 | val loss 1.399 | ppl 4.1 =====
+step068000_0.mid: 1024 tokens
+---
+step068000_1.mid: 1024 tokens
+---
+step068000_2.mid: 21 tokens
+
+===== step 68500 | val loss 1.362 | ppl 3.9 =====
+step068500_0.mid: 130 tokens
+---
+step068500_1.mid: 1024 tokens
+---
+step068500_2.mid: 974 tokens
+
+===== step 69000 | val loss 1.357 | ppl 3.9 =====
+step069000_0.mid: 1024 tokens
+---
+step069000_1.mid: 1024 tokens
+---
+step069000_2.mid: 1024 tokens
+
+===== step 69500 | val loss 1.404 | ppl 4.1 =====
+step069500_0.mid: 354 tokens
+---
+step069500_1.mid: 448 tokens
+---
+step069500_2.mid: 1024 tokens
+
+===== step 70000 | val loss 1.347 | ppl 3.8 =====
+step070000_0.mid: 1024 tokens
+---
+step070000_1.mid: 1024 tokens
+---
+step070000_2.mid: 155 tokens
+
+===== step 70500 | val loss 1.379 | ppl 4.0 =====
+step070500_0.mid: 1024 tokens
+---
+step070500_1.mid: 1024 tokens
+---
+step070500_2.mid: 354 tokens
+
+===== step 71000 | val loss 1.430 | ppl 4.2 =====
+step071000_0.mid: 1024 tokens
+---
+step071000_1.mid: 1024 tokens
+---
+step071000_2.mid: 280 tokens
+
+===== step 71500 | val loss 1.396 | ppl 4.0 =====
+step071500_0.mid: 1024 tokens
+---
+step071500_1.mid: 914 tokens
+---
+step071500_2.mid: 1024 tokens
+
+===== step 72000 | val loss 1.328 | ppl 3.8 =====
+step072000_0.mid: 1024 tokens
+---
+step072000_1.mid: 748 tokens
+---
+step072000_2.mid: 1024 tokens
+
+===== step 72500 | val loss 1.382 | ppl 4.0 =====
+step072500_0.mid: 1024 tokens
+---
+step072500_1.mid: 1024 tokens
+---
+step072500_2.mid: 754 tokens
+
+===== step 73000 | val loss 1.353 | ppl 3.9 =====
+step073000_0.mid: 489 tokens
+---
+step073000_1.mid: 1024 tokens
+---
+step073000_2.mid: 1024 tokens
+
+===== step 73500 | val loss 1.380 | ppl 4.0 =====
+step073500_0.mid: 1024 tokens
+---
+step073500_1.mid: 1024 tokens
+---
+step073500_2.mid: 692 tokens
+
+===== step 74000 | val loss 1.420 | ppl 4.1 =====
+step074000_0.mid: 1024 tokens
+---
+step074000_1.mid: 66 tokens
+---
+step074000_2.mid: 1024 tokens
+
+===== step 74500 | val loss 1.400 | ppl 4.1 =====
+step074500_0.mid: 1024 tokens
+---
+step074500_1.mid: 163 tokens
+---
+step074500_2.mid: 147 tokens
+
+===== step 75000 | val loss 1.348 | ppl 3.8 =====
+step075000_0.mid: 1024 tokens
+---
+step075000_1.mid: 1024 tokens
+---
+step075000_2.mid: 1024 tokens
+
+===== step 75500 | val loss 1.401 | ppl 4.1 =====
+step075500_0.mid: 1024 tokens
+---
+step075500_1.mid: 1024 tokens
+---
+step075500_2.mid: 642 tokens
+
+===== step 76000 | val loss 1.362 | ppl 3.9 =====
+step076000_0.mid: 1024 tokens
+---
+step076000_1.mid: 1024 tokens
+---
+step076000_2.mid: 1024 tokens
+
+===== step 76500 | val loss 1.396 | ppl 4.0 =====
+step076500_0.mid: 1024 tokens
+---
+step076500_1.mid: 1024 tokens
+---
+step076500_2.mid: 1024 tokens
+
+===== step 77000 | val loss 1.378 | ppl 4.0 =====
+step077000_0.mid: 664 tokens
+---
+step077000_1.mid: 115 tokens
+---
+step077000_2.mid: 358 tokens
+
+===== step 77500 | val loss 1.322 | ppl 3.8 =====
+step077500_0.mid: 1024 tokens
+---
+step077500_1.mid: 1024 tokens
+---
+step077500_2.mid: 1024 tokens
+
+===== step 78000 | val loss 1.361 | ppl 3.9 =====
+step078000_0.mid: 1024 tokens
+---
+step078000_1.mid: 1024 tokens
+---
+step078000_2.mid: 246 tokens
+
+===== step 78500 | val loss 1.353 | ppl 3.9 =====
+step078500_0.mid: 1024 tokens
+---
+step078500_1.mid: 1024 tokens
+---
+step078500_2.mid: 1024 tokens
+
+===== step 79000 | val loss 1.324 | ppl 3.8 =====
+step079000_0.mid: 1024 tokens
+---
+step079000_1.mid: 207 tokens
+---
+step079000_2.mid: 1024 tokens
+
+===== step 79500 | val loss 1.356 | ppl 3.9 =====
+step079500_0.mid: 1024 tokens
+---
+step079500_1.mid: 1024 tokens
+---
+step079500_2.mid: 783 tokens
+
+===== step 80000 | val loss 1.374 | ppl 4.0 =====
+step080000_0.mid: 1024 tokens
+---
+step080000_1.mid: 675 tokens
+---
+step080000_2.mid: 1024 tokens
+
+===== step 80500 | val loss 1.349 | ppl 3.9 =====
+step080500_0.mid: 1024 tokens
+---
+step080500_1.mid: 1024 tokens
+---
+step080500_2.mid: 1024 tokens
+
+===== step 81000 | val loss 1.400 | ppl 4.1 =====
+step081000_0.mid: 1024 tokens
+---
+step081000_1.mid: 1024 tokens
+---
+step081000_2.mid: 128 tokens
+
+===== step 81500 | val loss 1.362 | ppl 3.9 =====
+step081500_0.mid: 1024 tokens
+---
+step081500_1.mid: 1024 tokens
+---
+step081500_2.mid: 1024 tokens
+
+===== step 82000 | val loss 1.316 | ppl 3.7 =====
+step082000_0.mid: 763 tokens
+---
+step082000_1.mid: 1024 tokens
+---
+step082000_2.mid: 1024 tokens
+
+===== step 82500 | val loss 1.382 | ppl 4.0 =====
+step082500_0.mid: 634 tokens
+---
+step082500_1.mid: 1024 tokens
+---
+step082500_2.mid: 597 tokens
+
+===== step 83000 | val loss 1.376 | ppl 4.0 =====
+step083000_0.mid: 1024 tokens
+---
+step083000_1.mid: 1024 tokens
+---
+step083000_2.mid: 814 tokens
+
+===== step 83500 | val loss 1.373 | ppl 3.9 =====
+step083500_0.mid: 1024 tokens
+---
+step083500_1.mid: 1024 tokens
+---
+step083500_2.mid: 711 tokens
+
+===== step 84000 | val loss 1.315 | ppl 3.7 =====
+step084000_0.mid: 1024 tokens
+---
+step084000_1.mid: 1024 tokens
+---
+step084000_2.mid: 1024 tokens
+
+===== step 84500 | val loss 1.358 | ppl 3.9 =====
+step084500_0.mid: 1024 tokens
+---
+step084500_1.mid: 1024 tokens
+---
+step084500_2.mid: 1024 tokens
+
+===== step 85000 | val loss 1.343 | ppl 3.8 =====
+step085000_0.mid: 1024 tokens
+---
+step085000_1.mid: 1024 tokens
+---
+step085000_2.mid: 1024 tokens
+
+===== step 85500 | val loss 1.365 | ppl 3.9 =====
+step085500_0.mid: 1024 tokens
+---
+step085500_1.mid: 1024 tokens
+---
+step085500_2.mid: 1024 tokens
+
+===== step 86000 | val loss 1.365 | ppl 3.9 =====
+step086000_0.mid: 1024 tokens
+---
+step086000_1.mid: 879 tokens
+---
+step086000_2.mid: 1024 tokens
+
+===== step 86500 | val loss 1.320 | ppl 3.7 =====
+step086500_0.mid: 1024 tokens
+---
+step086500_1.mid: 1024 tokens
+---
+step086500_2.mid: 1024 tokens
+
+===== step 87000 | val loss 1.368 | ppl 3.9 =====
+step087000_0.mid: 1024 tokens
+---
+step087000_1.mid: 1024 tokens
+---
+step087000_2.mid: 1024 tokens
+
+===== step 87500 | val loss 1.355 | ppl 3.9 =====
+step087500_0.mid: 1024 tokens
+---
+step087500_1.mid: 1024 tokens
+---
+step087500_2.mid: 1024 tokens
+
+===== step 88000 | val loss 1.355 | ppl 3.9 =====
+step088000_0.mid: 568 tokens
+---
+step088000_1.mid: 1024 tokens
+---
+step088000_2.mid: 12 tokens
+
+===== step 88500 | val loss 1.265 | ppl 3.5 =====
+step088500_0.mid: 1024 tokens
+---
+step088500_1.mid: 638 tokens
+---
+step088500_2.mid: 778 tokens
+
+===== step 89000 | val loss 1.339 | ppl 3.8 =====
+step089000_0.mid: 1024 tokens
+---
+step089000_1.mid: 1024 tokens
+---
+step089000_2.mid: 1024 tokens
+
+===== step 89500 | val loss 1.346 | ppl 3.8 =====
+step089500_0.mid: 321 tokens
+---
+step089500_1.mid: 1024 tokens
+---
+step089500_2.mid: 455 tokens
+
+===== step 90000 | val loss 1.299 | ppl 3.7 =====
+step090000_0.mid: 829 tokens
+---
+step090000_1.mid: 52 tokens
+---
+step090000_2.mid: 437 tokens
+
+===== step 90500 | val loss 1.311 | ppl 3.7 =====
+step090500_0.mid: 1024 tokens
+---
+step090500_1.mid: 1024 tokens
+---
+step090500_2.mid: 1024 tokens
+
+===== step 91000 | val loss 1.379 | ppl 4.0 =====
+step091000_0.mid: 1024 tokens
+---
+step091000_1.mid: 1024 tokens
+---
+step091000_2.mid: 12 tokens
+
+===== step 91500 | val loss 1.299 | ppl 3.7 =====
+step091500_0.mid: 1024 tokens
+---
+step091500_1.mid: 173 tokens
+---
+step091500_2.mid: 1024 tokens
+
+===== step 92000 | val loss 1.315 | ppl 3.7 =====
+step092000_0.mid: 1024 tokens
+---
+step092000_1.mid: 208 tokens
+---
+step092000_2.mid: 1024 tokens
+
+===== step 92500 | val loss 1.350 | ppl 3.9 =====
+step092500_0.mid: 1024 tokens
+---
+step092500_1.mid: 85 tokens
+---
+step092500_2.mid: 222 tokens
+
+===== step 93000 | val loss 1.364 | ppl 3.9 =====
+step093000_0.mid: 1024 tokens
+---
+step093000_1.mid: 1024 tokens
+---
+step093000_2.mid: 17 tokens
+
+===== step 93500 | val loss 1.362 | ppl 3.9 =====
+step093500_0.mid: 1024 tokens
+---
+step093500_1.mid: 620 tokens
+---
+step093500_2.mid: 1024 tokens
+
+===== step 94000 | val loss 1.348 | ppl 3.8 =====
+step094000_0.mid: 308 tokens
+---
+step094000_1.mid: 1024 tokens
+---
+step094000_2.mid: 1024 tokens
+
+===== step 94500 | val loss 1.302 | ppl 3.7 =====
+step094500_0.mid: 1024 tokens
+---
+step094500_1.mid: 1024 tokens
+---
+step094500_2.mid: 1024 tokens
+
+===== step 95000 | val loss 1.360 | ppl 3.9 =====
+step095000_0.mid: 1024 tokens
+---
+step095000_1.mid: 1024 tokens
+---
+step095000_2.mid: 1024 tokens
+
+===== step 95500 | val loss 1.344 | ppl 3.8 =====
+step095500_0.mid: 1024 tokens
+---
+step095500_1.mid: 1024 tokens
+---
+step095500_2.mid: 1024 tokens
+
+===== step 96000 | val loss 1.337 | ppl 3.8 =====
+step096000_0.mid: 1024 tokens
+---
+step096000_1.mid: 20 tokens
+---
+step096000_2.mid: 1024 tokens
+
+===== step 96500 | val loss 1.308 | ppl 3.7 =====
+step096500_0.mid: 1024 tokens
+---
+step096500_1.mid: 10 tokens
+---
+step096500_2.mid: 1024 tokens
+
+===== step 97000 | val loss 1.363 | ppl 3.9 =====
+step097000_0.mid: 1024 tokens
+---
+step097000_1.mid: 49 tokens
+---
+step097000_2.mid: 1024 tokens
+
+===== step 97500 | val loss 1.358 | ppl 3.9 =====
+step097500_0.mid: 1024 tokens
+---
+step097500_1.mid: 1024 tokens
+---
+step097500_2.mid: 1024 tokens
+
+===== step 98000 | val loss 1.365 | ppl 3.9 =====
+step098000_0.mid: 1024 tokens
+---
+step098000_1.mid: 1024 tokens
+---
+step098000_2.mid: 550 tokens
+
+===== step 98500 | val loss 1.334 | ppl 3.8 =====
+step098500_0.mid: 89 tokens
+---
+step098500_1.mid: 1024 tokens
+---
+step098500_2.mid: 1024 tokens
+
+===== step 99000 | val loss 1.308 | ppl 3.7 =====
+step099000_0.mid: 1024 tokens
+---
+step099000_1.mid: 1024 tokens
+---
+step099000_2.mid: 1024 tokens
+
+===== step 99500 | val loss 1.326 | ppl 3.8 =====
+step099500_0.mid: 1024 tokens
+---
+step099500_1.mid: 74 tokens
+---
+step099500_2.mid: 1024 tokens
+
+===== step 100000 | val loss 1.324 | ppl 3.8 =====
+step100000_0.mid: 1024 tokens
+---
+step100000_1.mid: 1024 tokens
+---
+step100000_2.mid: 1024 tokens
+
+===== step 100500 | val loss 1.357 | ppl 3.9 =====
+step100500_0.mid: 1024 tokens
+---
+step100500_1.mid: 1024 tokens
+---
+step100500_2.mid: 1024 tokens
+
+===== step 101000 | val loss 1.345 | ppl 3.8 =====
+step101000_0.mid: 1024 tokens
+---
+step101000_1.mid: 1024 tokens
+---
+step101000_2.mid: 1024 tokens
+
+===== step 101500 | val loss 1.342 | ppl 3.8 =====
+step101500_0.mid: 1024 tokens
+---
+step101500_1.mid: 1024 tokens
+---
+step101500_2.mid: 1024 tokens
+
+===== step 102000 | val loss 1.312 | ppl 3.7 =====
+step102000_0.mid: 1024 tokens
+---
+step102000_1.mid: 1024 tokens
+---
+step102000_2.mid: 1024 tokens
+
+===== step 102500 | val loss 1.318 | ppl 3.7 =====
+step102500_0.mid: 341 tokens
+---
+step102500_1.mid: 1024 tokens
+---
+step102500_2.mid: 894 tokens
+
+===== step 103000 | val loss 1.289 | ppl 3.6 =====
+step103000_0.mid: 118 tokens
+---
+step103000_1.mid: 1024 tokens
+---
+step103000_2.mid: 1002 tokens
+
+===== step 103500 | val loss 1.321 | ppl 3.7 =====
+step103500_0.mid: 1024 tokens
+---
+step103500_1.mid: 1024 tokens
+---
+step103500_2.mid: 147 tokens
+
+===== step 104000 | val loss 1.340 | ppl 3.8 =====
+step104000_0.mid: 1024 tokens
+---
+step104000_1.mid: 1024 tokens
+---
+step104000_2.mid: 1024 tokens
+
+===== step 104500 | val loss 1.359 | ppl 3.9 =====
+step104500_0.mid: 1024 tokens
+---
+step104500_1.mid: 1024 tokens
+---
+step104500_2.mid: 1024 tokens
+
+===== step 105000 | val loss 1.338 | ppl 3.8 =====
+step105000_0.mid: 1024 tokens
+---
+step105000_1.mid: 1024 tokens
+---
+step105000_2.mid: 1024 tokens
+
+===== step 105500 | val loss 1.303 | ppl 3.7 =====
+step105500_0.mid: 1024 tokens
+---
+step105500_1.mid: 960 tokens
+---
+step105500_2.mid: 1024 tokens
+
+===== step 106000 | val loss 1.304 | ppl 3.7 =====
+step106000_0.mid: 1024 tokens
+---
+step106000_1.mid: 1024 tokens
+---
+step106000_2.mid: 11 tokens
+
+===== step 106500 | val loss 1.321 | ppl 3.7 =====
+step106500_0.mid: 701 tokens
+---
+step106500_1.mid: 981 tokens
+---
+step106500_2.mid: 1024 tokens
+
+===== step 107000 | val loss 1.301 | ppl 3.7 =====
+step107000_0.mid: 1024 tokens
+---
+step107000_1.mid: 160 tokens
+---
+step107000_2.mid: 1024 tokens
+
+===== step 107500 | val loss 1.317 | ppl 3.7 =====
+step107500_0.mid: 1024 tokens
+---
+step107500_1.mid: 319 tokens
+---
+step107500_2.mid: 1024 tokens
+
+===== step 108000 | val loss 1.338 | ppl 3.8 =====
+step108000_0.mid: 640 tokens
+---
+step108000_1.mid: 1024 tokens
+---
+step108000_2.mid: 1024 tokens
+
+===== step 108500 | val loss 1.321 | ppl 3.7 =====
+step108500_0.mid: 454 tokens
+---
+step108500_1.mid: 1024 tokens
+---
+step108500_2.mid: 109 tokens
+
+===== step 109000 | val loss 1.320 | ppl 3.7 =====
+step109000_0.mid: 8 tokens
+---
+step109000_1.mid: 952 tokens
+---
+step109000_2.mid: 191 tokens
+
+===== step 109500 | val loss 1.272 | ppl 3.6 =====
+step109500_0.mid: 1024 tokens
+---
+step109500_1.mid: 1024 tokens
+---
+step109500_2.mid: 1024 tokens
+
+===== step 110000 | val loss 1.321 | ppl 3.7 =====
+step110000_0.mid: 1024 tokens
+---
+step110000_1.mid: 1024 tokens
+---
+step110000_2.mid: 1024 tokens
+
+===== step 110500 | val loss 1.313 | ppl 3.7 =====
+step110500_0.mid: 375 tokens
+---
+step110500_1.mid: 1024 tokens
+---
+step110500_2.mid: 1024 tokens
+
+===== step 111000 | val loss 1.331 | ppl 3.8 =====
+step111000_0.mid: 1024 tokens
+---
+step111000_1.mid: 1024 tokens
+---
+step111000_2.mid: 1024 tokens
+
+===== step 111500 | val loss 1.332 | ppl 3.8 =====
+step111500_0.mid: 1024 tokens
+---
+step111500_1.mid: 959 tokens
+---
+step111500_2.mid: 1024 tokens
+
+===== step 112000 | val loss 1.254 | ppl 3.5 =====
+step112000_0.mid: 1024 tokens
+---
+step112000_1.mid: 1024 tokens
+---
+step112000_2.mid: 46 tokens
+
+===== step 112500 | val loss 1.271 | ppl 3.6 =====
+step112500_0.mid: 106 tokens
+---
+step112500_1.mid: 1024 tokens
+---
+step112500_2.mid: 1024 tokens
+
+===== step 112767 | val loss 1.321 | ppl 3.7 =====
+step112767_0.mid: 1024 tokens
+---
+step112767_1.mid: 1024 tokens
+---
+step112767_2.mid: 142 tokens
