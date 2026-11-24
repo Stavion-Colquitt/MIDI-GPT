@@ -178,6 +178,22 @@ weakest:
 | mean beats generated | 136.1 | 137.4 | 134.3 |
 | mean tracks | 3.0 | 3.2 | 2.7 |
 
+#### Best and worst requests
+
+The three best and the three worst requests of the 60, with the numbers measured from the generated MIDI:
+
+| request | asked (BPM, key, instruments, density bin) | got (BPM, key, instruments, density bin) | verdict |
+|---|---|---|---|
+| req_31 | 74.1, Eb major, DRUMS/Bass/Guitar/Strings, 3 | 80.7, Eb major, Guitar/Bass/Strings/DRUMS, 3 | exact key, every instrument present, density exact |
+| req_41 | 143.4, F major, DRUMS/Bass/Guitar, 4 | 148.4, F major, Guitar/Bass/DRUMS, 4 | exact key, every instrument present, density exact |
+| req_56 | 137.2, B major, DRUMS/Bass/Guitar, 4 | 128.1, B major, Guitar/Bass/DRUMS, 4 | exact key, every instrument present, density exact |
+| req_25 | 72.8, Ab minor, DRUMS/Bass/SynthLead, 1 | empty file, nothing decoded | no output at all |
+| req_04 | 146.6, A minor, DRUMS/Bass/SynthPad/SynthLead, 1 | 121.3, A major, Organ/SynthPad/DRUMS, 4 | minor turned major, bass and SynthLead missing, Organ added, tempo 25 BPM fast |
+| req_58 | 105.0, B major, DRUMS/Bass/Strings, 1 | 121.3, E major, Piano/Strings/DRUMS, 3 | wrong key, bass missing, Piano added, tempo 16 BPM fast |
+
+req_25 produced an empty file, and the other failures show the typical misses: tempo snapping to 121 BPM, minor
+turned major, and bass dropped.
+
 Six of the 60 songs are in `examples/`, with every requested instrument present: `req_31.mid`, `req_41.mid` and
 `req_56.mid`, the clearest of the set, plus `req_11.mid`, `req_24.mid` and `req_32.mid`. The file names are the
 request ids from the evaluation, and nothing else was filtered.
