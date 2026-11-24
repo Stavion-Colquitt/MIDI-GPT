@@ -22,3 +22,16 @@ make_train.py
 # python
 __pycache__/
 *.pyc
+# LM 3: exports, checkpoints, samples, eval MIDI, flag/done files, backups
+hf_export*/
+checkpoints*/
+generated*/
+samples*/
+samples*.txt
+lm3_eval/*.mid
+*_done*.txt
+*.flag
+*.done
+pause_lm3*
+*.bak
+*.bak*

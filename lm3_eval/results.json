@@ -1,0 +1,3311 @@
+{
+ "checkpoint": "best.pt",
+ "step": 53000,
+ "val_loss": 1.0292389273643494,
+ "tokens_per_request": 1536,
+ "top_k": 50,
+ "temperature": 0.9,
+ "block": 2048,
+ "n_requests": 60,
+ "elapsed_s": 582.5,
+ "results": [
+  {
+   "id": "req_00",
+   "asked": {
+    "index": 0,
+    "tempo_bpm": 158.7,
+    "key": "C# minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Strings"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "C# major",
+    "key_conf": 0.73,
+    "instruments": [
+     "Piano",
+     "Strings",
+     "DRUMS"
+    ],
+    "density": 9.57,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 56.75,
+    "tracks": 3,
+    "tempo_err_bpm": -37.4,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Strings",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass"
+    ],
+    "inst_extra": [
+     "Piano"
+    ],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 0.667,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 3.334
+   }
+  },
+  {
+   "id": "req_01",
+   "asked": {
+    "index": 1,
+    "tempo_bpm": 112.5,
+    "key": "A major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Strings",
+     "SynthLead"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "A major",
+    "key_conf": 0.76,
+    "instruments": [
+     "Guitar",
+     "Strings",
+     "DRUMS"
+    ],
+    "density": 5.86,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 113.0,
+    "tracks": 4,
+    "tempo_err_bpm": 8.8,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Strings",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass",
+     "SynthLead"
+    ],
+    "inst_extra": [
+     "Guitar"
+    ],
+    "inst_all_present": false,
+    "inst_recall": 0.5,
+    "inst_precision": 0.667,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 5.167
+   }
+  },
+  {
+   "id": "req_02",
+   "asked": {
+    "index": 2,
+    "tempo_bpm": 123.0,
+    "key": "A major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 4,
+   "got": {
+    "tempo": 148.4,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.0,
+    "instruments": [
+     "DRUMS"
+    ],
+    "density": 2.25,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 223.75,
+    "tracks": 1,
+    "tempo_err_bpm": 25.4,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass",
+     "Brass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.333,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 2.333
+   }
+  },
+  {
+   "id": "req_03",
+   "asked": {
+    "index": 3,
+    "tempo_bpm": 134.9,
+    "key": "Ab major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Strings"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 148.4,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "Eb minor",
+    "key_conf": 0.859,
+    "instruments": [
+     "Strings",
+     "DRUMS"
+    ],
+    "density": 2.95,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 195.0,
+    "tracks": 3,
+    "tempo_err_bpm": 13.5,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Strings",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 2.667
+   }
+  },
+  {
+   "id": "req_04",
+   "asked": {
+    "index": 4,
+    "tempo_bpm": 146.6,
+    "key": "A minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthPad",
+     "SynthLead"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "A major",
+    "key_conf": 0.831,
+    "instruments": [
+     "Organ",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "density": 8.67,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 75.0,
+    "tracks": 3,
+    "tempo_err_bpm": -25.3,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "SynthPad",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass",
+     "SynthLead"
+    ],
+    "inst_extra": [
+     "Organ"
+    ],
+    "inst_all_present": false,
+    "inst_recall": 0.5,
+    "inst_precision": 0.667,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 1.167
+   }
+  },
+  {
+   "id": "req_05",
+   "asked": {
+    "index": 5,
+    "tempo_bpm": 107.1,
+    "key": "Bb major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "Bb major",
+    "key_conf": 0.785,
+    "instruments": [
+     "Bass",
+     "Pipe",
+     "SynthLead",
+     "DRUMS"
+    ],
+    "density": 19.42,
+    "density_bin": 5
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 31.0,
+    "tracks": 5,
+    "tempo_err_bpm": 14.2,
+    "tempo_ok_10pct": false,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Bass",
+     "SynthLead",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [
+     "Pipe"
+    ],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 0.75,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 4.75
+   }
+  },
+  {
+   "id": "req_06",
+   "asked": {
+    "index": 6,
+    "tempo_bpm": 116.5,
+    "key": "E minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano",
+     "SynthLead"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 4,
+   "got": {
+    "tempo": 128.1,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "A minor",
+    "key_conf": 0.792,
+    "instruments": [
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 2.57,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 279.0,
+    "tracks": 2,
+    "tempo_err_bpm": 11.6,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Piano",
+     "SynthLead"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.5,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.5
+   }
+  },
+  {
+   "id": "req_07",
+   "asked": {
+    "index": 7,
+    "tempo_bpm": 79.8,
+    "key": "C minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 80.7,
+    "tempo_bin": 1,
+    "time_sig": "4/4",
+    "key": "C minor",
+    "key_conf": 0.809,
+    "instruments": [
+     "Bass",
+     "SynthLead"
+    ],
+    "density": 13.71,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 53.75,
+    "tracks": 2,
+    "tempo_err_bpm": 0.9,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Bass",
+     "SynthLead"
+    ],
+    "inst_missing": [
+     "DRUMS"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 6.667
+   }
+  },
+  {
+   "id": "req_08",
+   "asked": {
+    "index": 8,
+    "tempo_bpm": 156.9,
+    "key": "Bb major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.0,
+    "instruments": [
+     "DRUMS"
+    ],
+    "density": 3.5,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 202.25,
+    "tracks": 1,
+    "tempo_err_bpm": -35.6,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Organ",
+     "Bass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.333,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 2.333
+   }
+  },
+  {
+   "id": "req_09",
+   "asked": {
+    "index": 9,
+    "tempo_bpm": 143.9,
+    "key": "D major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 134.8,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "D major",
+    "key_conf": 0.799,
+    "instruments": [
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 3.42,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 270.5,
+    "tracks": 2,
+    "tempo_err_bpm": -9.1,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "SynthLead"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 6.667
+   }
+  },
+  {
+   "id": "req_10",
+   "asked": {
+    "index": 10,
+    "tempo_bpm": 95.1,
+    "key": "E major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano",
+     "Brass"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 2,
+   "got": {
+    "tempo": 101.0,
+    "tempo_bin": 3,
+    "time_sig": "4/4",
+    "key": "A major",
+    "key_conf": 0.898,
+    "instruments": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 5.91,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 142.0,
+    "tracks": 3,
+    "tempo_err_bpm": 5.9,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Brass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.75,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 4.75
+   }
+  },
+  {
+   "id": "req_11",
+   "asked": {
+    "index": 11,
+    "tempo_bpm": 161.9,
+    "key": "Eb minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Strings"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "Eb major",
+    "key_conf": 0.767,
+    "instruments": [
+     "Bass",
+     "Strings",
+     "DRUMS"
+    ],
+    "density": 2.73,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 260.0,
+    "tracks": 3,
+    "tempo_err_bpm": -40.6,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "Strings",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.0
+   }
+  },
+  {
+   "id": "req_12",
+   "asked": {
+    "index": 12,
+    "tempo_bpm": 144.2,
+    "key": "F minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass",
+     "SynthLead"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 134.8,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.532,
+    "instruments": [
+     "SynthLead",
+     "DRUMS"
+    ],
+    "density": 3.88,
+    "density_bin": 2
+   },
+   "tokens": 847,
+   "ended": true,
+   "scores": {
+    "decoded": true,
+    "beats": 117.12,
+    "tracks": 3,
+    "tempo_err_bpm": -9.4,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "SynthLead",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass",
+     "Brass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.5,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 4.5
+   }
+  },
+  {
+   "id": "req_13",
+   "asked": {
+    "index": 13,
+    "tempo_bpm": 171.2,
+    "key": "G minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthPad",
+     "Piano"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "G major",
+    "key_conf": 0.794,
+    "instruments": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 15.16,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 59.5,
+    "tracks": 3,
+    "tempo_err_bpm": -49.9,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "SynthPad"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.75,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 3.75
+   }
+  },
+  {
+   "id": "req_14",
+   "asked": {
+    "index": 14,
+    "tempo_bpm": 103.3,
+    "key": "G major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar",
+     "Brass"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "G major",
+    "key_conf": 0.716,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "density": 5.68,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 124.0,
+    "tracks": 5,
+    "tempo_err_bpm": 18.0,
+    "tempo_ok_10pct": false,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 5.0
+   }
+  },
+  {
+   "id": "req_15",
+   "asked": {
+    "index": 15,
+    "tempo_bpm": 73.5,
+    "key": "A minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthPad",
+     "Piano"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 67.1,
+    "tempo_bin": 0,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.0,
+    "instruments": [
+     "DRUMS"
+    ],
+    "density": 2.85,
+    "density_bin": 2
+   },
+   "tokens": 1154,
+   "ended": true,
+   "scores": {
+    "decoded": true,
+    "beats": 340.0,
+    "tracks": 1,
+    "tempo_err_bpm": -6.4,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Piano",
+     "Bass",
+     "SynthPad"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.25,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.25
+   }
+  },
+  {
+   "id": "req_16",
+   "asked": {
+    "index": 16,
+    "tempo_bpm": 141.3,
+    "key": "E major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 148.4,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "B major",
+    "key_conf": 0.852,
+    "instruments": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 6.28,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 121.12,
+    "tracks": 3,
+    "tempo_err_bpm": 7.1,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 3.0
+   }
+  },
+  {
+   "id": "req_17",
+   "asked": {
+    "index": 17,
+    "tempo_bpm": 164.3,
+    "key": "F minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass",
+     "Organ"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 168.7,
+    "tempo_bin": 6,
+    "time_sig": "4/4",
+    "key": "F minor",
+    "key_conf": 0.936,
+    "instruments": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 5.89,
+    "density_bin": 3
+   },
+   "tokens": 852,
+   "ended": true,
+   "scores": {
+    "decoded": true,
+    "beats": 95.75,
+    "tracks": 3,
+    "tempo_err_bpm": 4.4,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Brass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.75,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 6.75
+   }
+  },
+  {
+   "id": "req_18",
+   "asked": {
+    "index": 18,
+    "tempo_bpm": 124.8,
+    "key": "G major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 4,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "G major",
+    "key_conf": 0.948,
+    "instruments": [
+     "Organ",
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 10.17,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 94.12,
+    "tracks": 4,
+    "tempo_err_bpm": -3.5,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [
+     "Guitar"
+    ],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 0.75,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 6.75
+   }
+  },
+  {
+   "id": "req_19",
+   "asked": {
+    "index": 19,
+    "tempo_bpm": 130.9,
+    "key": "D minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ",
+     "Brass"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 134.8,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "D major",
+    "key_conf": 0.811,
+    "instruments": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 5.02,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 188.0,
+    "tracks": 3,
+    "tempo_err_bpm": 3.9,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Brass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.75,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 4.75
+   }
+  },
+  {
+   "id": "req_20",
+   "asked": {
+    "index": 20,
+    "tempo_bpm": 78.6,
+    "key": "G minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthPad"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.59,
+    "instruments": [
+     "Bass",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "density": 9.48,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 96.0,
+    "tracks": 4,
+    "tempo_err_bpm": 42.7,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.0
+   }
+  },
+  {
+   "id": "req_21",
+   "asked": {
+    "index": 21,
+    "tempo_bpm": 158.7,
+    "key": "G major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 168.7,
+    "tempo_bin": 6,
+    "time_sig": "4/4",
+    "key": "C major",
+    "key_conf": 0.832,
+    "instruments": [
+     "Organ",
+     "DRUMS"
+    ],
+    "density": 6.21,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 98.88,
+    "tracks": 2,
+    "tempo_err_bpm": 10.0,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Organ",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 4.667
+   }
+  },
+  {
+   "id": "req_22",
+   "asked": {
+    "index": 22,
+    "tempo_bpm": 82.3,
+    "key": "G major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass",
+     "Guitar"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "B minor",
+    "key_conf": 0.763,
+    "instruments": [
+     "Bass",
+     "Brass",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "density": 5.73,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 141.38,
+    "tracks": 4,
+    "tempo_err_bpm": 39.0,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Guitar"
+    ],
+    "inst_extra": [
+     "SynthPad"
+    ],
+    "inst_all_present": false,
+    "inst_recall": 0.75,
+    "inst_precision": 0.75,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 3.5
+   }
+  },
+  {
+   "id": "req_23",
+   "asked": {
+    "index": 23,
+    "tempo_bpm": 114.7,
+    "key": "C# major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 101.0,
+    "tempo_bin": 3,
+    "time_sig": "4/4",
+    "key": "Ab major",
+    "key_conf": 0.876,
+    "instruments": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "density": 6.41,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 142.5,
+    "tracks": 3,
+    "tempo_err_bpm": -13.7,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.0
+   }
+  },
+  {
+   "id": "req_24",
+   "asked": {
+    "index": 24,
+    "tempo_bpm": 159.8,
+    "key": "G major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 148.4,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.515,
+    "instruments": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "density": 1.71,
+    "density_bin": 1
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 417.62,
+    "tracks": 3,
+    "tempo_err_bpm": -11.4,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 5.0
+   }
+  },
+  {
+   "id": "req_25",
+   "asked": {
+    "index": 25,
+    "tempo_bpm": 72.8,
+    "key": "Ab minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 1,
+   "got": null,
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": false,
+    "beats": 0.0,
+    "tracks": 0,
+    "score_val": 0.0
+   }
+  },
+  {
+   "id": "req_26",
+   "asked": {
+    "index": 26,
+    "tempo_bpm": 111.1,
+    "key": "B major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 101.0,
+    "tempo_bin": 3,
+    "time_sig": "4/4",
+    "key": "B major",
+    "key_conf": 0.855,
+    "instruments": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 4.61,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 199.75,
+    "tracks": 3,
+    "tempo_err_bpm": -10.1,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 5.0
+   }
+  },
+  {
+   "id": "req_27",
+   "asked": {
+    "index": 27,
+    "tempo_bpm": 90.4,
+    "key": "F major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthPad"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 2,
+   "got": {
+    "tempo": 101.0,
+    "tempo_bin": 3,
+    "time_sig": "4/4",
+    "key": "C# major",
+    "key_conf": 0.878,
+    "instruments": [
+     "SynthPad"
+    ],
+    "density": 1.23,
+    "density_bin": 1
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 76.12,
+    "tracks": 1,
+    "tempo_err_bpm": 10.6,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "SynthPad"
+    ],
+    "inst_missing": [
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.333,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 2.333
+   }
+  },
+  {
+   "id": "req_28",
+   "asked": {
+    "index": 28,
+    "tempo_bpm": 146.4,
+    "key": "C# major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 141.6,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "Bb minor",
+    "key_conf": 0.692,
+    "instruments": [
+     "Bass",
+     "SynthLead",
+     "DRUMS"
+    ],
+    "density": 6.48,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 177.5,
+    "tracks": 3,
+    "tempo_err_bpm": -4.8,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Bass",
+     "SynthLead",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 5.0
+   }
+  },
+  {
+   "id": "req_29",
+   "asked": {
+    "index": 29,
+    "tempo_bpm": 135.2,
+    "key": "Ab major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 148.4,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "Ab major",
+    "key_conf": 0.857,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 8.4,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 126.0,
+    "tracks": 4,
+    "tempo_err_bpm": 13.2,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 5.0
+   }
+  },
+  {
+   "id": "req_30",
+   "asked": {
+    "index": 30,
+    "tempo_bpm": 137.9,
+    "key": "B major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar",
+     "Piano"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 128.1,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "B minor",
+    "key_conf": 0.826,
+    "instruments": [
+     "Piano",
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 15.81,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 53.62,
+    "tracks": 7,
+    "tempo_err_bpm": -9.8,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano",
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 5.0
+   }
+  },
+  {
+   "id": "req_31",
+   "asked": {
+    "index": 31,
+    "tempo_bpm": 74.1,
+    "key": "Eb major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar",
+     "Strings"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 80.7,
+    "tempo_bin": 1,
+    "time_sig": "4/4",
+    "key": "Eb major",
+    "key_conf": 0.956,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "Strings",
+     "DRUMS"
+    ],
+    "density": 5.96,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 144.0,
+    "tracks": 4,
+    "tempo_err_bpm": 6.6,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "Strings",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 7.0
+   }
+  },
+  {
+   "id": "req_32",
+   "asked": {
+    "index": 32,
+    "tempo_bpm": 165.0,
+    "key": "Eb minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "Bb major",
+    "key_conf": 0.681,
+    "instruments": [
+     "Organ",
+     "Bass",
+     "SynthPad",
+     "SynthFX",
+     "DRUMS"
+    ],
+    "density": 5.64,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 121.0,
+    "tracks": 5,
+    "tempo_err_bpm": -43.7,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [
+     "SynthPad",
+     "SynthFX"
+    ],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 0.6,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 2.6
+   }
+  },
+  {
+   "id": "req_33",
+   "asked": {
+    "index": 33,
+    "tempo_bpm": 171.5,
+    "key": "C# major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 168.7,
+    "tempo_bin": 6,
+    "time_sig": "4/4",
+    "key": "Ab minor",
+    "key_conf": 0.667,
+    "instruments": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "density": 4.24,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 198.0,
+    "tracks": 3,
+    "tempo_err_bpm": -2.8,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 4.0
+   }
+  },
+  {
+   "id": "req_34",
+   "asked": {
+    "index": 34,
+    "tempo_bpm": 105.9,
+    "key": "Ab major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "Ab major",
+    "key_conf": 0.926,
+    "instruments": [
+     "Bass",
+     "SynthLead",
+     "DRUMS"
+    ],
+    "density": 9.36,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 108.0,
+    "tracks": 4,
+    "tempo_err_bpm": 15.4,
+    "tempo_ok_10pct": false,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Bass",
+     "SynthLead",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 6.0
+   }
+  },
+  {
+   "id": "req_35",
+   "asked": {
+    "index": 35,
+    "tempo_bpm": 139.9,
+    "key": "C major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ",
+     "SynthPad"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 141.6,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "C major",
+    "key_conf": 0.931,
+    "instruments": [
+     "Organ",
+     "Bass",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "density": 8.81,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 108.0,
+    "tracks": 5,
+    "tempo_err_bpm": 1.7,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Organ",
+     "Bass",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 6.0
+   }
+  },
+  {
+   "id": "req_36",
+   "asked": {
+    "index": 36,
+    "tempo_bpm": 138.1,
+    "key": "C minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar",
+     "SynthLead"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "C major",
+    "key_conf": 0.791,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 4.6,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 177.0,
+    "tracks": 3,
+    "tempo_err_bpm": -16.8,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "SynthLead"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.75,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 1.75
+   }
+  },
+  {
+   "id": "req_37",
+   "asked": {
+    "index": 37,
+    "tempo_bpm": 118.1,
+    "key": "D major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ",
+     "Piano"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 4,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "D major",
+    "key_conf": 0.864,
+    "instruments": [
+     "Piano",
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 9.84,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 79.88,
+    "tracks": 4,
+    "tempo_err_bpm": 3.2,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Piano",
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 6.0
+   }
+  },
+  {
+   "id": "req_38",
+   "asked": {
+    "index": 38,
+    "tempo_bpm": 84.2,
+    "key": "Eb minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead",
+     "Strings"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 67.1,
+    "tempo_bin": 0,
+    "time_sig": "4/4",
+    "key": "Eb major",
+    "key_conf": 0.846,
+    "instruments": [
+     "Guitar",
+     "Strings"
+    ],
+    "density": 3.86,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 159.0,
+    "tracks": 3,
+    "tempo_err_bpm": -17.1,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Strings"
+    ],
+    "inst_missing": [
+     "Bass",
+     "SynthLead",
+     "DRUMS"
+    ],
+    "inst_extra": [
+     "Guitar"
+    ],
+    "inst_all_present": false,
+    "inst_recall": 0.25,
+    "inst_precision": 0.5,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 1.75
+   }
+  },
+  {
+   "id": "req_39",
+   "asked": {
+    "index": 39,
+    "tempo_bpm": 132.0,
+    "key": "Ab minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 134.8,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.533,
+    "instruments": [
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 8.35,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 98.0,
+    "tracks": 2,
+    "tempo_err_bpm": 2.8,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Organ"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.667
+   }
+  },
+  {
+   "id": "req_40",
+   "asked": {
+    "index": 40,
+    "tempo_bpm": 110.7,
+    "key": "C# minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 128.1,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "F# minor",
+    "key_conf": 0.818,
+    "instruments": [
+     "Piano",
+     "DRUMS"
+    ],
+    "density": 4.35,
+    "density_bin": 3
+   },
+   "tokens": 648,
+   "ended": true,
+   "scores": {
+    "decoded": true,
+    "beats": 80.0,
+    "tracks": 2,
+    "tempo_err_bpm": 17.4,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 2.667
+   }
+  },
+  {
+   "id": "req_41",
+   "asked": {
+    "index": 41,
+    "tempo_bpm": 143.4,
+    "key": "F major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 148.4,
+    "tempo_bin": 5,
+    "time_sig": "4/4",
+    "key": "F major",
+    "key_conf": 0.78,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 10.51,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 84.0,
+    "tracks": 4,
+    "tempo_err_bpm": 5.0,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 7.0
+   }
+  },
+  {
+   "id": "req_42",
+   "asked": {
+    "index": 42,
+    "tempo_bpm": 109.8,
+    "key": "A minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano",
+     "SynthPad"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 101.0,
+    "tempo_bin": 3,
+    "time_sig": "4/4",
+    "key": "D major",
+    "key_conf": 0.8,
+    "instruments": [
+     "Piano",
+     "Bass",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "density": 8.27,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 112.0,
+    "tracks": 4,
+    "tempo_err_bpm": -8.8,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano",
+     "Bass",
+     "SynthPad",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 5.0
+   }
+  },
+  {
+   "id": "req_43",
+   "asked": {
+    "index": 43,
+    "tempo_bpm": 151.1,
+    "key": "Bb minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "F minor",
+    "key_conf": 0.785,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 8.3,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 115.5,
+    "tracks": 3,
+    "tempo_err_bpm": -29.8,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 4.0
+   }
+  },
+  {
+   "id": "req_44",
+   "asked": {
+    "index": 44,
+    "tempo_bpm": 76.7,
+    "key": "Bb minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthPad"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 87.4,
+    "tempo_bin": 2,
+    "time_sig": "4/4",
+    "key": "Bb minor",
+    "key_conf": 0.809,
+    "instruments": [
+     "SynthPad",
+     "DRUMS"
+    ],
+    "density": 9.55,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 74.0,
+    "tracks": 3,
+    "tempo_err_bpm": 10.7,
+    "tempo_ok_10pct": false,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "SynthPad",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 5.667
+   }
+  },
+  {
+   "id": "req_45",
+   "asked": {
+    "index": 45,
+    "tempo_bpm": 165.3,
+    "key": "G minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 155.2,
+    "tempo_bin": 6,
+    "time_sig": "4/4",
+    "key": "G minor",
+    "key_conf": 0.943,
+    "instruments": [
+     "Piano",
+     "DRUMS"
+    ],
+    "density": 12.16,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 61.12,
+    "tracks": 2,
+    "tempo_err_bpm": -10.1,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Piano",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 6.667
+   }
+  },
+  {
+   "id": "req_46",
+   "asked": {
+    "index": 46,
+    "tempo_bpm": 104.2,
+    "key": "D minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "A minor",
+    "key_conf": 0.828,
+    "instruments": [
+     "Bass",
+     "Ensemble",
+     "Brass",
+     "DRUMS"
+    ],
+    "density": 6.9,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 108.0,
+    "tracks": 5,
+    "tempo_err_bpm": 17.1,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Bass",
+     "Brass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [
+     "Ensemble"
+    ],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 0.75,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 2.75
+   }
+  },
+  {
+   "id": "req_47",
+   "asked": {
+    "index": 47,
+    "tempo_bpm": 89.7,
+    "key": "Ab minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 2,
+   "got": {
+    "tempo": 73.9,
+    "tempo_bin": 1,
+    "time_sig": "4/4",
+    "key": "Eb minor",
+    "key_conf": 0.694,
+    "instruments": [
+     "Piano",
+     "Brass"
+    ],
+    "density": 2.71,
+    "density_bin": 2
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 259.75,
+    "tracks": 2,
+    "tempo_err_bpm": -15.8,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Brass"
+    ],
+    "inst_missing": [
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_extra": [
+     "Piano"
+    ],
+    "inst_all_present": false,
+    "inst_recall": 0.333,
+    "inst_precision": 0.5,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 2.833
+   }
+  },
+  {
+   "id": "req_48",
+   "asked": {
+    "index": 48,
+    "tempo_bpm": 173.6,
+    "key": "C minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Strings",
+     "Piano"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 182.3,
+    "tempo_bin": 7,
+    "time_sig": "4/4",
+    "key": "none",
+    "key_conf": 0.47,
+    "instruments": [
+     "Strings"
+    ],
+    "density": 5.79,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 118.0,
+    "tracks": 2,
+    "tempo_err_bpm": 8.7,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Strings"
+    ],
+    "inst_missing": [
+     "Piano",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.25,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.25
+   }
+  },
+  {
+   "id": "req_49",
+   "asked": {
+    "index": 49,
+    "tempo_bpm": 71.5,
+    "key": "C major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "C major",
+    "key_conf": 0.822,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 15.62,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 52.38,
+    "tracks": 3,
+    "tempo_err_bpm": 49.8,
+    "tempo_ok_10pct": false,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 4.0
+   }
+  },
+  {
+   "id": "req_50",
+   "asked": {
+    "index": 50,
+    "tempo_bpm": 133.9,
+    "key": "F# major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Strings",
+     "Organ"
+    ],
+    "density_bin": 2
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "F# major",
+    "key_conf": 0.908,
+    "instruments": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 5.76,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 148.0,
+    "tracks": 3,
+    "tempo_err_bpm": -12.6,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Organ",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Strings"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.75,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 5.75
+   }
+  },
+  {
+   "id": "req_51",
+   "asked": {
+    "index": 51,
+    "tempo_bpm": 80.5,
+    "key": "C minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Piano"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 73.9,
+    "tempo_bin": 1,
+    "time_sig": "4/4",
+    "key": "G minor",
+    "key_conf": 0.92,
+    "instruments": [
+     "Piano"
+    ],
+    "density": 6.14,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 120.0,
+    "tracks": 1,
+    "tempo_err_bpm": -6.6,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano"
+    ],
+    "inst_missing": [
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.333,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 4.333
+   }
+  },
+  {
+   "id": "req_52",
+   "asked": {
+    "index": 52,
+    "tempo_bpm": 166.0,
+    "key": "Eb major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar",
+     "Organ"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 155.2,
+    "tempo_bin": 6,
+    "time_sig": "4/4",
+    "key": "Ab major",
+    "key_conf": 0.831,
+    "instruments": [
+     "Guitar",
+     "DRUMS"
+    ],
+    "density": 8.1,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 98.75,
+    "tracks": 3,
+    "tempo_err_bpm": -10.8,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Guitar",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Organ",
+     "Bass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.5,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 3.5
+   }
+  },
+  {
+   "id": "req_53",
+   "asked": {
+    "index": 53,
+    "tempo_bpm": 82.1,
+    "key": "E major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Brass",
+     "Piano"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 90.8,
+    "tempo_bin": 2,
+    "time_sig": "4/4",
+    "key": "B minor",
+    "key_conf": 0.654,
+    "instruments": [
+     "Piano",
+     "DRUMS"
+    ],
+    "density": 5.9,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 141.88,
+    "tracks": 2,
+    "tempo_err_bpm": 8.7,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Piano",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass",
+     "Brass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.5,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 1.5
+   }
+  },
+  {
+   "id": "req_54",
+   "asked": {
+    "index": 54,
+    "tempo_bpm": 74.3,
+    "key": "A minor",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead",
+     "Strings"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 73.9,
+    "tempo_bin": 1,
+    "time_sig": "4/4",
+    "key": "C major",
+    "key_conf": 0.889,
+    "instruments": [
+     "SynthLead"
+    ],
+    "density": 4.14,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 133.25,
+    "tracks": 1,
+    "tempo_err_bpm": -0.4,
+    "tempo_ok_10pct": true,
+    "key_exact": false,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "SynthLead"
+    ],
+    "inst_missing": [
+     "Bass",
+     "Strings",
+     "DRUMS"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.25,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 5.25
+   }
+  },
+  {
+   "id": "req_55",
+   "asked": {
+    "index": 55,
+    "tempo_bpm": 168.5,
+    "key": "C# major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Organ",
+     "Brass"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 6,
+   "got": {
+    "tempo": 209.4,
+    "tempo_bin": 7,
+    "time_sig": "4/4",
+    "key": "C# major",
+    "key_conf": 0.78,
+    "instruments": [
+     "Organ",
+     "DRUMS"
+    ],
+    "density": 6.74,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 85.62,
+    "tracks": 2,
+    "tempo_err_bpm": 40.9,
+    "tempo_ok_10pct": false,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Organ",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass",
+     "Brass"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.5,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 4.5
+   }
+  },
+  {
+   "id": "req_56",
+   "asked": {
+    "index": 56,
+    "tempo_bpm": 137.2,
+    "key": "B major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar"
+    ],
+    "density_bin": 4
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 128.1,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "B major",
+    "key_conf": 0.727,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 11.34,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 71.0,
+    "tracks": 3,
+    "tempo_err_bpm": -9.1,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 7.0
+   }
+  },
+  {
+   "id": "req_57",
+   "asked": {
+    "index": 57,
+    "tempo_bpm": 131.6,
+    "key": "C major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Guitar"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 5,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "C major",
+    "key_conf": 0.818,
+    "instruments": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 9.88,
+    "density_bin": 4
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 88.5,
+    "tracks": 3,
+    "tempo_err_bpm": -10.3,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Guitar",
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [],
+    "inst_extra": [],
+    "inst_all_present": true,
+    "inst_recall": 1.0,
+    "inst_precision": 1.0,
+    "density_exact": false,
+    "density_within1": true,
+    "score_val": 6.0
+   }
+  },
+  {
+   "id": "req_58",
+   "asked": {
+    "index": 58,
+    "tempo_bpm": 105.0,
+    "key": "B major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "Strings"
+    ],
+    "density_bin": 1
+   },
+   "asked_tempo_bin": 3,
+   "got": {
+    "tempo": 121.3,
+    "tempo_bin": 4,
+    "time_sig": "4/4",
+    "key": "E major",
+    "key_conf": 0.768,
+    "instruments": [
+     "Piano",
+     "Strings",
+     "DRUMS"
+    ],
+    "density": 6.0,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 100.0,
+    "tracks": 3,
+    "tempo_err_bpm": 16.3,
+    "tempo_ok_10pct": false,
+    "key_exact": false,
+    "key_relative_ok": false,
+    "inst_hit": [
+     "Strings",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "Bass"
+    ],
+    "inst_extra": [
+     "Piano"
+    ],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 0.667,
+    "density_exact": false,
+    "density_within1": false,
+    "score_val": 1.334
+   }
+  },
+  {
+   "id": "req_59",
+   "asked": {
+    "index": 59,
+    "tempo_bpm": 74.3,
+    "key": "F major",
+    "time_sig": "4/4",
+    "instruments": [
+     "DRUMS",
+     "Bass",
+     "SynthLead"
+    ],
+    "density_bin": 3
+   },
+   "asked_tempo_bin": 1,
+   "got": {
+    "tempo": 80.7,
+    "tempo_bin": 1,
+    "time_sig": "4/4",
+    "key": "F major",
+    "key_conf": 0.828,
+    "instruments": [
+     "Bass",
+     "DRUMS"
+    ],
+    "density": 4.94,
+    "density_bin": 3
+   },
+   "tokens": 1536,
+   "ended": false,
+   "scores": {
+    "decoded": true,
+    "beats": 212.5,
+    "tracks": 3,
+    "tempo_err_bpm": 6.4,
+    "tempo_ok_10pct": true,
+    "key_exact": true,
+    "key_relative_ok": true,
+    "inst_hit": [
+     "Bass",
+     "DRUMS"
+    ],
+    "inst_missing": [
+     "SynthLead"
+    ],
+    "inst_extra": [],
+    "inst_all_present": false,
+    "inst_recall": 0.667,
+    "inst_precision": 1.0,
+    "density_exact": true,
+    "density_within1": true,
+    "score_val": 6.667
+   }
+  }
+ ]
+}
