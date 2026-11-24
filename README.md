@@ -235,6 +235,15 @@ Ethnic, Percussive, SFX and DRUMS.
   136 beats on average, well under real Lakh songs.
 - No genre control in this release, and the reserved style token at id 8255 is unused.
 
+#### Next: LM 4
+
+LM 4 is planned to address the weaknesses above:
+
+- A larger model, for denser arrangements and better control following.
+- Balanced training for keys and modes: songs transposed across all 12 keys and sampled so minor keys are as common as major, aimed at the minor-key drift.
+- Tempo augmentation so tempos stop clumping near 121 and 148 BPM.
+- A style fine-tune on my own sessions, which are mostly in minor keys.
+
 ### Data and license
 
 Code and weights: MIT.
